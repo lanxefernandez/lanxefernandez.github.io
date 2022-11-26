@@ -1,0 +1,235 @@
+#contentTwo {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -10%;
+    margin-bottom: -15%;
+    display: flex;
+    position: relative;
+}
+
+.contentTwo_container01 {
+    margin: 0;
+    padding-bottom: 15%;
+    display: block;
+    text-align: left;
+    float: left;
+
+}
+
+.contentTwo_title {
+    color: #333;
+    font-size: 3.5em;
+}
+
+.contentTwo_description {
+    color: #333;
+    max-width: 100%;
+    line-height: 2em;
+    text-align: justify;
+    padding-top: 18%;
+}
+
+.contentTwo_container02 {
+    width: 100%;
+    max-width: 950px;
+    margin-bottom: 10%;
+}
+
+.contentTwo_overlapImages {
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.contentTwo_overlapItem01:first-of-type {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.contentTwo_overlapItem02:last-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+
+}
+
+.contentTwo_image01 {
+    display: flex;
+    margin: auto;
+    margin-right: 35%;
+    margin-top: 35%;
+    float: right;
+    width: 29em;
+    height: 60%;
+    border-radius: 15%
+}
+.contentTwo_image02 {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 55%;
+    width: 30em;
+    height: 70%;
+    border-radius: 15%
+}
+
+@media (max-width: 1200px) { /* middle*/
+
+    #contentTwo {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: -10%;
+        margin-bottom: -15%;
+        display: flex;
+        position: relative;
+    }
+    
+    .contentTwo_container01 {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+        float: left;
+    
+    }
+    
+    .contentTwo_title {
+        color: #333;
+        font-size: 3.5em;
+    }
+    
+    .contentTwo_description {
+        color: #333;
+        max-width: 100%;
+        line-height: 2em;
+        text-align: justify;
+    }
+    
+    .contentTwo_container02 {
+        width: 100%;
+        max-width: 950px;
+        margin-bottom: 10%;
+    }
+    
+    .contentTwo_overlapImages {
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    
+    .contentTwo_overlapItem01:first-of-type {
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 2;
+    }
+    
+    .contentTwo_overlapItem02:last-of-type {
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+    
+    }
+    
+    .contentTwo_image01 {
+        display: flex;
+        margin: auto;
+        margin-right: 35%;
+        margin-top: 35%;
+        float: right;
+        width: 29em;
+        height: 60%;
+        border-radius: 15%
+    }
+    .contentTwo_image02 {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 55%;
+        width: 30em;
+        height: 70%;
+        border-radius: 15%
+    }
+    
+}
+
+
+@media (max-width: 950px) { /*last*/
+
+    #contentTwo {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: -10%;
+        margin-bottom: -15%;
+        display: block;
+        position: relative;
+    }
+    
+    .contentTwo_container01 {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+        float: left;
+    
+    }
+    
+    .contentTwo_title {
+        color: #333;
+        font-size: 3.5em;
+        text-align: center;
+        width: 100%;
+        float: right;
+    }
+    
+    .contentTwo_description {
+        color: #333;
+        max-width: 100%;
+        padding-top: 18%;
+        line-height: 2em;
+        text-align: justify;
+        position: relative;
+        float: left;
+    }
+    
+    .contentTwo_container02 {
+        display: flex;
+        width: 100%;
+        position: relative
+    }
+    
+    .contentTwo_overlapImages {
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    
+    .contentTwo_overlapItem01:first-of-type {
+        display: block;
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 2;
+    }
+    
+    .contentTwo_overlapItem02:last-of-type {
+        display: block;
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+    
+    }
+    
+    .contentTwo_image01 {
+        display: block;
+        margin: auto;
+        margin-right: 25%;
+        margin-top: 5%;
+        width: 100%;
+        height: 75%;
+        border-radius: 15%
+    }
+    .contentTwo_image02 {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 100%;
+        height: 75%;
+        border-radius: 15%
+    }
+    
+}

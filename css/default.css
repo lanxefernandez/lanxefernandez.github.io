@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', sans-serif;
+    background-color: wheat;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 15px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: blueviolet; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: crimson; 
+  }
+
+.navBar {
+    display: flex;
+    margin: 0;
+    padding: 0% 3%;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 1.8rem;
+    padding-top: .5rem;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.navBar_links ul {
+    margin-right: 1rem;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.navBar_links li {
+    list-style: none;
+    padding: 1.5rem;
+    font-size: 1.1em;
+}
+
+.navBar_links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-right: 0rem;
+    display: block;
+}
+
+.navBar_links li:hover {
+    background-color: #d52145;
+}
+
+
+@media (max-width: 1200px) { /* middle*/
+
+    .navBar-links {
+        display: flex;
+        width: 100%;
+    }
+
+    .logo {
+        margin: auto;
+        margin-top: 10%;
+        padding: 0px;
+        
+    }
+    
+    .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(30, 19, 10);
+        margin: auto;
+        padding: 1em;
+        text-align: center;
+        max-width: 85%;
+        width: 100%;
+        height: auto;
+    }
+
+    .navBar_links ul {
+        flex-direction: row;
+        margin: auto;
+        padding: auto;
+        
+    }
+
+    .navBar_links li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .nnavBar_links li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .navBar_links active {
+        display: flex;
+    }
+
+}
+@media (max-width: 950px) { /*last*/
+
+    .navBar_links {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+
+    .logo {
+        margin: auto;
+        margin-top: 5%;
+        padding: .5rem 1rem;
+        
+    }
+    
+    .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(30, 19, 10);
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .navBar_links ul {
+        flex-direction: column;
+    }
+
+    .navBar_links li {
+        text-align: center;
+        margin: auto;
+    }
+
+    .navBar_links li a {
+        margin: 0%;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        width: 100%;
+        display: block;
+        
+    }
+
+    .nnavBar_links active {
+        display: flex;
+    }
+
+    .navBar_links li:hover {
+        background-color: #d52145;
+    }
+}
+
+/* content 4----------------------- */
+.div-4{
+    background-image: url("images/background02.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  
+.content-4{
+
+    padding: 0 150px;
+    margin-top: -10%;
+    color: rgb(241, 249, 250);
+}
+
+.content-4-1{
+    padding: 5%;
+    margin: auto;
+    font-size: 2em;
+    font-weight: 250;
+    text-align: center;
+}
+
+.content-4-3 table{
+    border-spacing: 15px;
+}
+
+.content-4-3 td,tr{
+    border: none;
+    border-radius: 5%;
+    background-color: rgba(209, 32, 159, 0.3);
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height: 2em;
+}
+
+.content-4-4 td, tr {
+    background-image: url("images/img04.png");
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,91 @@
+#subscribeHeader {
+    background-color: azure;
+    position: relative;
+    height: 100%;
+    width: 400px;
+    padding: 5%;
+    margin: auto;
+    display: inline-block;
+}
+#subscribeForm {
+    background-color: rgb(182, 218, 220);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.subscribeInput {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.signUpNow {
+    font-size: 1em;
+    position: relative;
+    text-align: justify;
+    padding: 5%;
+    margin: auto;
+    font-family:BioRhyme, monospace;
+    color: lightslategrey
+
+}
+.signUpNowDescription {
+    font-size: 1em;
+    width: 100%;
+    text-align: justify;
+    height: 100%;
+    padding: 5%;
+    margin-bottom: 10% ;
+    position: relative;
+    font-family:BioRhyme, monospace;
+    color: lightslategrey
+}
+.enterFirstName {
+    margin-top: 5%;
+    margin-left: 13%;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    width: 75%;
+    height: 40%;
+    padding: 5%;
+    text-align: center;
+  }
+.enterLastName {
+    margin-top: 5%;
+    margin-left: 13%;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    width: 75%;
+    height: 40%;
+    padding: 5%;
+    text-align: center;
+    
+}
+.enterEmail {
+    margin-top: 5%;
+    margin-left: 13%;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    width: 75%;
+    height: 40%;
+    padding: 5%;
+    text-align: center;
+    
+}
+.submitButton {
+    margin-top: 4%;
+    margin-left: 10%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: chartreuse;
+    font-family: BioRhyme, monospace;
+}
